@@ -1,0 +1,195 @@
+/* Reset de base */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #004d99; /* Couleur de fond de l'en-tête */
+    color: red; /* Couleur du texte de l'en-tête */
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+h2 {
+  color: blue;
+}  
+
+p {
+  color: red;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+#hero {
+    background: #e6f7ff; /* Couleur de fond de la section héros */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.btn {
+    background: #004d99; /* Couleur du bouton */
+    color: red; /* Couleur du texte du bouton */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#services {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-item {
+    background: #f9f9f9; /* Couleur de fond des services */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd; /* Bordure */
+    border-radius: 5px;
+}
+
+#about, #contact {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: red; /* Couleur du bouton */
+    color: #ffffff; /* Couleur du texte du bouton */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+    
+}
+
+fieldset {
+  color: olive;
+  
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #004d99; /* Couleur de fond du pied de page */
+    color: #ffffff; /* Couleur du texte du pied de page */
+}
+h3 { 
+  background-color: red;
+}
+  
+
+  #banniere_image
+
+{
+
+ margin-top: 15px; 
+ height: 200px; 
+ border-radius: 5px; 
+ background: url('images/sanfrancisco.jpg') no-repeat; 
+ position: relative; 
+ box-shadow: 0px 4px 4px #1c1a19; 
+ margin-bottom: 25px; 
+}
+#banniere_description
+{
+ position: absolute; 
+ bottom: 0; 
+ border-radius: 0px 0px 5px 5px; 
+ width: 99.5%; 
+ height: 33px; 
+ padding-top: 15px; 
+ padding-left: 4px; 
+ background-color: rgba(24,24,24,0.8); 
+ color: white; 
+ font-size: 0.8em; 
+}
+.bouton_rouge
+{
+ height: 25px; 
+ position: absolute; 
+ right: 5px; 
+ bottom: 5px; 
+ background: url('images/fond_degraderouge.jpg') repeat-x; 
+ border: 1px solid #760001; 
+ border-radius: 5px; 
+ font-size: 1.2em; 
+ text-align: center; 
+ padding: 3px 8px 0px 8px; 
+ color: white; 
+ text-decoration: none; 
+}
+.bouton_rouge img
+{
+ border: 0;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
